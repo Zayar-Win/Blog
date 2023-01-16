@@ -1,0 +1,109 @@
+.categories {
+  max-width: 500px;
+  margin: 50px auto;
+  top: 50%;
+  padding: 20px;
+}
+
+.categories .box__container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  background-color: rgba(107, 101, 101, 0.5);
+}
+
+.categories .box__container .box {
+  background-color: white;
+  padding: 20px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.categories .box__container .box .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.categories .box__container .box h1 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #635f5f;
+}
+
+.categories .box__container .box input {
+  width: 100%;
+  margin-bottom: 7px;
+}
+
+.categories .box__container .box .button {
+  margin: 7px 0px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #6075eb;
+  border: none;
+  color: white;
+  font-weight: 500;
+}
+
+.categories form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.categories input {
+  width: 100%;
+  padding: 10px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  outline: none;
+  border-radius: 3px;
+}
+
+.categories .btn {
+  padding: 5px 20px;
+  border: none;
+  outline: none;
+  background-color: aqua;
+  border-radius: 3px;
+  margin-left: 2px;
+  color: black;
+  font-weight: 600;
+}
+
+.categories .category__list .category {
+  background-color: lightgray;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 5px 0px;
+  border-radius: 3px;
+}
+
+.categories .category__list .category .icon {
+  margin-right: 5px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=createcategory.css.map */

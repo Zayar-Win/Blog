@@ -1,0 +1,70 @@
+.login__form {
+  height: calc(100vh - 100px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login__form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+  border-radius: 5px;
+  width: 50%;
+  box-shadow: -3px 3px 11px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -3px 3px 11px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -3px 3px 11px 0px rgba(0, 0, 0, 0.75);
+}
+
+.login__form form .form__input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.login__form form .form__input label {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.login__form form .form__input input {
+  width: 100%;
+  padding: 10px 7px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  outline: none;
+  border-radius: 3px;
+  margin: 5px 0px 20px 0px;
+}
+
+.login__form form .btn {
+  width: 120px;
+  padding: 10px 25px;
+  border: none;
+  background-color: teal;
+  font-size: 15px;
+  color: white;
+  border-radius: 3px;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+}
+/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,155 @@
+.blog__detail {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 40px;
+  h2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  .user_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .image {
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        overflow: hidden;
+      }
+      .span {
+        font-size: 17px;
+        margin-left: 10px;
+        p {
+          font-weight: 600;
+          text-align: left;
+        }
+        span {
+          margin: 0;
+        }
+      }
+    }
+  }
+  .thumbnail {
+    text-align: center;
+  }
+  p {
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+  }
+
+  form{
+    width:100%;
+    display: flex;
+    margin-top:20px;
+    flex-direction: column;    
+    .comment__input{
+      display: flex;
+      align-items: center;
+
+      .image{
+        width:50px;
+        height:50px;
+        overflow:hidden;
+        border-radius: 50%;
+        margin-right:20px;
+
+        img{
+          width:100%;
+          height:100%;
+          object-fit: cover;
+        }
+      }
+
+      input{
+        width:100%;
+        border:none;
+        border-bottom:1px solid rgba(0, 0, 0, 0.09);
+        padding:10px;
+        outline: none;
+      }
+    }
+
+    .btn{
+      padding:10px 20px;
+      display: inline-block;
+      width:180px;
+      border:none;
+      outline:none;
+      background:rgb(59, 59, 236);
+      color:white;
+      font-weight: 600;
+      border-radius: 3px;
+      margin-left:auto;
+    }
+  }
+  .comment__container{
+    width:100%;
+    display: flex;
+    margin:30px 0px;
+    .image{
+      width:50px;
+      height:50px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-right:10px;
+
+      img{
+        width:100%;
+        height:100%;
+      }
+    }
+    .user__info{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .info{
+        span{
+          font-size:15px;
+          font-weight: 600;
+          margin-right: 10px;
+        }
+
+        .time{
+          opacity: 0.7;
+        }
+      }
+
+      .content{
+        p{
+          margin:5px 0px;
+          color:black;
+          text-align: left;
+        }
+      }
+
+      span{
+        font-weight: 400;
+        cursor: pointer;
+        user-select: none;
+      }
+    }
+    .option{
+      display: flex;
+      margin-left: auto;
+
+      .icon{
+        font-size:22px;
+        margin-right:5px;
+        color:rgba(0, 0, 0, 0.5);
+
+        &:hover{
+          color:black;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.profile {
+  h1 {
+    padding: 0;
+    margin: 0px 0px 5px 0px;
+    font-size: 23px;
+    font-weight: 600;
+  }
+}
+
+.preview {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+
+  .thumbnail {
+    max-height: 140px;
+    max-width: 180px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .card {
+    margin-left: 10px;
+    h5 {
+      padding: 0;
+      margin: 0;
+      font-size: 16px;
+    }
+    p {
+      margin: 7px 0px;
+      font-size: 14px;
+    }
+  }
+}

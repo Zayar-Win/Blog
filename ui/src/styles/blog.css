@@ -1,0 +1,43 @@
+.profile h1 {
+  padding: 0;
+  margin: 0px 0px 5px 0px;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.preview {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.preview .thumbnail {
+  max-height: 140px;
+  max-width: 180px;
+  overflow: hidden;
+}
+
+.preview .thumbnail img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.preview .card {
+  margin-left: 10px;
+}
+
+.preview .card h5 {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+.preview .card p {
+  margin: 7px 0px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=blog.css.map */

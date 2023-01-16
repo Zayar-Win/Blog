@@ -1,0 +1,94 @@
+.blog__container {
+  margin: 20px auto;
+  max-width: 1100px;
+
+  h2 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+  }
+
+  .editor {
+    width: 100%;
+    margin: 10px 0px;
+  }
+
+  .blog__form {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 4px;
+
+    .form__input {
+      display: flex;
+      flex-direction: column;
+
+      label {
+        font-size: 16px;
+        color: gray;
+        margin: 5px 0px;
+        .icon {
+          margin-top: 10px;
+          color: black;
+        }
+      }
+
+      input {
+        width: 100%;
+        padding: 10px 8px;
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        border-radius: 3px;
+        margin: 7px 0px;
+        font-size: 15px;
+        outline: none;
+      }
+
+      select {
+        padding: 10px;
+        outline: none;
+        margin: 7px 0px;
+      }
+    }
+  }
+
+  .preview {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 4px;
+
+    .thumbnail {
+      max-height: 140px;
+      max-width: 180px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .card {
+      margin-left: 10px;
+      h5 {
+        padding: 0;
+        margin: 0;
+        font-size: 16px;
+      }
+      p {
+        margin: 7px 0px;
+        font-size: 14px;
+      }
+    }
+  }
+}
